@@ -1,0 +1,126 @@
+html{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.6em;
+    background-color: #4A4E57;
+    color: #CBCBCB;
+
+}
+
+
+
+nav, body, input, textarea {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.wrapper {
+    display: black;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+*, *::before, *::after {
+    transition: all 0.2s ease-in-out;
+    list-style:none;
+}
+
+h1,h2,h3,h4,h5,h6, .heading 
+{
+    font-family: "Fira Code", monospace;
+    margin: 0;
+    line-height: normal;
+    font-weight: normal;
+}
+
+address 
+{
+    font-style: normal;
+    font-weight: normal;
+}
+
+.font-xs 
+{
+    font-size: 0.8rem;
+}
+
+#secondaryNavbar .navbar-nav .nav-item 
+{
+    display: flex;
+}
+
+#secondaryNavbar .navbar-nav .nav-item::after 
+{
+    content: "";
+    margin-left: 10px;
+    align-self: center;
+}
+
+#secondaryNavbar .navbar-nav .nav-item::last-child::after 
+{
+    margin-left: 0; content: "";
+} 
+
+.social-icon 
+{
+    margin: 0; padding: 0; list-style: none;
+}
+
+.social-icon a 
+{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    text-align: center;
+    color: #32353C;
+    background-color: #FFF;
+}
+
+.social-icon li 
+{
+    display: inline-block;
+    margin: 0 5px 0 0;
+    padding: 0;
+    line-height: normal;
+}
+
+.social-icon li a:hover 
+{
+    color: #FFF !important;
+}
+
+.faicon-facebook:hover 
+{
+    background-color: #3B5998 !important;
+}
+.faicon-twitter:hover 
+{
+    background-color: #00ACEE !important;
+}
+.faicon-instagram:hover 
+{
+    background-color: #EA4C89 !important;
+}
+.faicon-linkedin:hover 
+{
+    background-color: #0E76A8 !important;
+}
+.faicon-pinterest:hover 
+{
+    background-color: #C8232C!important;
+}
+
+
